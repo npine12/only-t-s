@@ -1,0 +1,15 @@
+h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.products-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-image{
+    height: 100px;
+    width: 100px;
+}

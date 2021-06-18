@@ -1,2 +1,2 @@
-SELECT cart_id FROM wlr1_carts
+SELECT cart_id FROM carts
 WHERE user_id = $1 AND active = TRUE;

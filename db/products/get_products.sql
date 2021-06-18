@@ -1,2 +1,2 @@
-SELECT * FROM wlr1_products
+SELECT * FROM products
 ORDER BY product_id;

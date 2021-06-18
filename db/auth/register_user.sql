@@ -1,3 +1,3 @@
-INSERT INTO wlr1_users
-(email, password)
+INSERT INTO users
+(username, password)
 VALUES($1, $2) RETURNING *;

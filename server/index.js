@@ -16,6 +16,7 @@ const cartCtrl = require('./controllers/cartController')
 const app = express()
 
 // TOP LEVEL MIDDLEWARE
+app.use(express.static('front'))
 app.use(express.json())
 app.use(session({
     secret: SESSION_SECRET,
@@ -51,3 +52,4 @@ app.get('/api/cart', cartCtrl.getCart)
 app.post('/api/cart/:product_id', cartCtrl.addToCart)
 app.delete('/api/cart/:product_id', cartCtrl.deleteItemFromCart)
 app.put('/api/cart/:product_id', cartCtrl.changeCartQty)
+

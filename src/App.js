@@ -1,7 +1,8 @@
 import { useEffect } from 'react'
-import './App.css';
+import './App.scss'
 import routes from './routes'
-import Header from './components/Header'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import { useDispatch } from 'react-redux'
 import { setUser } from './redux/authReducer'
 import { setCart } from './redux/cartReducer'
@@ -18,10 +19,12 @@ function App() {
     })
   }, [])
   return (
-    <div className="App">
-      {/* Here we just render the Header as well as our routes. */}
-      <Header />
-      {routes}
+    <div className="page-container">
+      <div className="content-wrap">
+        <Header />
+        {routes}
+      </div>
+      <Footer />
     </div>
   );
 }

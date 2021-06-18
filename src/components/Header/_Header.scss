@@ -1,0 +1,41 @@
+@import '../../Colors';
+@import '../../Functions';
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    background-color: $primary-color;
+
+    h1{
+      text-decoration: underline;
+    }
+    .shop-tri{
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-bottom: 60px solid $secondary-color;
+      border-left: 60px solid transparent;
+      
+      }
+    }
+    .cart-tri{
+      width: 75px;
+      height: 75px;
+      background-color: $secondary-color;
+      border-radius: 50%;
+      
+    }
+    .log-tri{
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-bottom: 60px solid $secondary-color;
+      border-left: 60px solid transparent;
+    }
+
+
+  

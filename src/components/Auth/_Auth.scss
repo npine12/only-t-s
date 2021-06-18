@@ -1,0 +1,21 @@
+@import '../../Colors';
+
+
+  .authContainer {
+    background-color: lighten($primary-color, 20%);
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+
+    input {
+      color: black;
+        margin-bottom: 10px;
+      }
+      button {
+        margin-bottom: 10px;
+      }
+  }

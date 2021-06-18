@@ -1,0 +1,13 @@
+.home-cont {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+.home-cont .stack {
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+}/*# sourceMappingURL=Home.css.map */

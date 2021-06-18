@@ -1,0 +1,6 @@
+@mixin flex-center($direction){
+    display: flex;
+    align-items: center;
+    flex-direction: $direction;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,42 @@
+@import "./components/Auth/Auth";
+@import "./components/Cart/Cart";
+@import "./components/Header/Header";
+@import "./components/Products/Products";
+@import "./components/Footer/Footer";
+@import "./components/AboutUs/AboutUs";
+@import "./components/Home/Home";
+
+* {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+  
+    
+}
+
+body{
+    background-color: $primary-color;
+}
+
+a:hover {
+    color: $secondary-color
+}
+button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+    background-color: $secondary-color ; 
+  
+}
+button:hover {
+    transform: scale(.98);
+    }
+
+    img{
+        border-style: ridge;
+    }
+   
+
+  
