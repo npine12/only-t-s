@@ -19,11 +19,9 @@ function App() {
     })
   }, [])
   return (
-    <div className="page-container">
-      <div className="content-wrap">
-        <Header />
-        {routes}
-      </div>
+    <div>
+      <Header />
+      {routes}
       <Footer />
     </div>
   );

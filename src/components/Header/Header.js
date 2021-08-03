@@ -1,17 +1,21 @@
 import { Link, useLocation } from 'react-router-dom'
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart'
 
 const Header = () => {
     const { pathname } = useLocation()
     console.log(pathname)
     return (
         <header className="showcase">
-            <h1>ONLY-T'S</h1>
-            {pathname !== '/products' && <Link to='/products' ><div className="shop-tri">Shop</div></Link>}
-            {pathname !== '/cart' && <Link to='/cart' ><div className="cart-tri">Cart</div></Link>}
-            {pathname !== '/auth' && <Link to='/auth' ><div className="log-tri">Login</div></Link>}
-            {pathname !== '/' && <Link to='/' ><div className="log-tri">Home</div></Link>}
+            <Link to='/' ><h1>KESLER SURF</h1></Link>
+            <Link to='/tops' >Tops</Link>
+            <Link to='/bottoms' >Bottoms</Link>
+            <Link to='/hats' >Hats</Link>
+            <Link to="/aboutus">About Us</Link>
+            <Link to='/cart'><div className="cart-icon-container">  <ShoppingCartIcon style={{ fontSize: 70, color: 'white' }} /></div></Link>
         </header>
     )
 }
-
 export default Header
+
+
+

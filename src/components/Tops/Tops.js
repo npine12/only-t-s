@@ -28,9 +28,6 @@ const Products = (props) => {
                 })
                 .catch((err) => {
                     console.log(err)
-                    if (err.response.status === 511) {
-                        props.history.push('/cart')
-                    }
                 })
         } else {
             axios.put(`/api/cart/${product_id}`, { quantity: product.quantity + 1 })

@@ -1,7 +1,7 @@
 @import "./components/Auth/Auth";
 @import "./components/Cart/Cart";
 @import "./components/Header/Header";
-@import "./components/Products/Products";
+@import "./components/Tops/Tops";
 @import "./components/Footer/Footer";
 @import "./components/AboutUs/AboutUs";
 @import "./components/Home/Home";
@@ -17,11 +17,15 @@
 
 body{
     background-color: $primary-color;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
 }
 
 a:hover {
-    color: $secondary-color
+    transform: scale(1.25)
 }
+
 button {
     display: inline-block;
     border-radius: 5px;

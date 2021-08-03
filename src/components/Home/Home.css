@@ -4,10 +4,16 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
 }
+
+.home-cont h3 {
+  margin: 50px;
+  text-indent: 20px;
+}
+
 .home-cont .stack {
   width: 500px;
   height: 500px;
-  margin: 50px;
-}/*# sourceMappingURL=Home.css.map */
+  margin: 25px;
+}
+/*# sourceMappingURL=Home.css.map */
